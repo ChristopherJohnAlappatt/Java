@@ -8,7 +8,7 @@ public class Calculator {
         char operator;
         Double number1, number2, result;
 
-        // create an object of Scanner class
+        // create an object of Input class
         Scanner input = new Scanner(System.in);
 
         // ask users to enter operator
