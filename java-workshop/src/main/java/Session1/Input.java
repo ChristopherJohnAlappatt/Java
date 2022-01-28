@@ -28,5 +28,19 @@ public class Input {
         System.out.println("The entered number is -> " + num2);
         System.out.println("=================================");
 
+//        WAP to take user input for employee details like empName , empAge , empSalary
+        System.out.println("Enter name, age and salary:");
+
+        // String input
+        String empName = scanner.next();
+
+        // Numerical input
+        int empAge = scanner.nextInt();
+        double empSalary = scanner.nextDouble();
+
+        // Output input by user
+        System.out.println("Name: " + empName);
+        System.out.println("Age: " + empAge);
+        System.out.println("Salary: " + empSalary);
     }
 }
