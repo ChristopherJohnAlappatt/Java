@@ -10,8 +10,7 @@ public class SwitchCase {
 
     public static void main(String[] args) {
 //         IF-ELSE implementation
-
-        System.out.println("This is if-else implementation");
+        System.out.println("This is if-else implementation.");
 
         System.out.println("Enter a day of the week : ");
         int weekDay = scanner.nextInt();
@@ -37,7 +36,7 @@ public class SwitchCase {
         System.out.println("======================================");
 
 //        SWITCH CASE Implementation
-        System.out.println("This is Switch case implementation");
+        System.out.println("This is Switch case implementation.");
 
         System.out.println("Enter a day of the week : ");
         weekDay = scanner.nextInt();

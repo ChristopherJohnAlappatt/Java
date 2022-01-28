@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class ArraysInJava {
 
     public static void main(String[] args) {
-
         String[] colors = new String[5];
         colors[0] = "red";
         colors[1] = "blue";
