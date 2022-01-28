@@ -1,14 +1,17 @@
 package Session1;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class SwitchCase {
+
+
+    static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 //         IF-ELSE implementation
 
         System.out.println("This is if-else implementation");
-        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a day of the week : ");
         int weekDay = scanner.nextInt();
@@ -67,6 +70,26 @@ public class SwitchCase {
 
         }
 
+        System.out.println("======================================");
 
+        System.out.println("Enter the students grade : ");
+        char grade = scanner.next().charAt(0);
+        switch (grade) {
+            case 'A':
+                System.out.println("Excellent!");
+                break;
+            case 'B':
+            case 'C':
+                System.out.println("Well done");
+                break;
+            case 'D':
+                System.out.println("You passed");
+            case 'F':
+                System.out.println("Better try again");
+                break;
+            default:
+                System.out.println("Invalid grade");
+        }
+        System.out.println("Your grade is " + grade);
     }
 }
