@@ -1,4 +1,4 @@
-package Session1.Assignments;
+package Session2.Assignments;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,6 +1,5 @@
-package Session1;
+package Session2;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class SwitchCase {
